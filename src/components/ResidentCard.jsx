@@ -30,9 +30,9 @@ const ResidentCard = ({ url }) => {
         <hr className="resident__hr" />
 
         <ul className="resident__list">
-          <li className="resident__item"><span className="resident__label">Specie</span> <span className="resident__value">resident?.species</span></li>
-          <li className="resident__item"><span className="resident__label">Origin</span> <span className="resident__value">resident?.origin.name</span></li>
-          <li className="resident__item"><span className="resident__label">Eppisodes where appear</span> <span className="resident__value">resident?.episode.length</span></li>
+          <li className="resident__item"><span className="resident__label">Specie</span> <span className="resident__value">{resident?.species}</span></li>
+          <li className="resident__item"><span className="resident__label">Origin</span> <span className="resident__value">{resident?.origin.name}</span></li>
+          <li className="resident__item"><span className="resident__label">Eppisodes where appear</span> <span className="resident__value">{resident?.episode.length}</span></li>
         </ul>
       </section>
     </article>
