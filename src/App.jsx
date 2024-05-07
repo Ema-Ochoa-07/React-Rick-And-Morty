@@ -23,7 +23,6 @@ function App() {
         e.preventDefault()
         setLocationId(inputId.current.value.trim())
     }
-    
 
   return (
     <div>

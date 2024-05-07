@@ -22,17 +22,22 @@
 .number__error{
     color: white;
     justify-content: center;
+    position: relative;
+    top: -2rem;
 }
 
 .number__error-1{
     display: flex;
     justify-content: center;
     font-size: 3.5rem;
+
 }
 
 .logo__error{
-    padding-top: .5rem;
+    padding-top: .3rem;
     height: 10rem;
+    position: absolute;
+    top: 7rem;
 }
 
 .error__title{
